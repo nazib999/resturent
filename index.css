@@ -38,7 +38,7 @@ section{
 }
 .about{
     display: flex;
-    
+    width: 1400px;
     background-color: #e6ca48;
     border-radius: 500px 0 0 500px;
 }
@@ -164,6 +164,7 @@ footer .bottom{
      .about{
         display: flex ;
         padding: 50px;
+        width: 600px;
         border-radius: 294px 287px 0 0 !important;
         justify-content: center;
         align-items: center;
@@ -187,6 +188,7 @@ footer .bottom{
     .about{
         display: flex ;
         padding: 50px 20px;
+        width: 300px !important;
         border-radius: 294px 287px 0 0 !important;
         justify-content: center;
         align-items: center;
@@ -200,11 +202,11 @@ footer .bottom{
         
      }
      #about .content{
-        max-width: 440px;
+        max-width: 350px;
         margin: auto;
       }
      .about .about-img img{
-        width: 340px !important;
+        width: 300px !important;
         margin-bottom: 50px;
      }
 }
